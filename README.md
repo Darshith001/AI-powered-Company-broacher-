@@ -3,7 +3,7 @@
 
 The AI Powered Website Text Summarizer & Brochure Generator is a tool designed to automatically read, analyze, and summarize website content using LLM
 The system intelligently extracts links, fetches relevant pages, processes the text, and generates a clean, readable summary or brochure using structured system prompts and user prompts.
-This project demonstrates how AI can transform raw website data into meaningful, human-friendly content. Whether it's summarizing an article, generating a product brochure, or analyzing a company website, the tool provides an automated, privacy-friendly, and fast workflow powered completely.
+This project demonstrates how AI can transform raw website data into meaningful, human-friendly content. Whether it's summarizing an article, generating a product brochure, or analyzing a company website, the tool provides an automated, privacy friendly, and fast workflow powered completely.
 
 🛠 Tech Stack
 🔹 Artificial Intelligence
@@ -25,4 +25,5 @@ Prompt-Oriented Text Generation — Uses system + user prompts to generate summa
 Jupyter Notebook — Development and testing
 dotenv — Secure API key management
 IPython Markdown Display — Clean output formatting
+
 
