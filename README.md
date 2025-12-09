@@ -27,3 +27,36 @@ dotenv — Secure API key management
 IPython Markdown Display — Clean output formatting
 
 
+          ┌─────────────────┐
+          │   Input: URL    │
+          └───────┬─────────┘
+                  │
+        ┌─────────▼───────────┐
+        │   Web Scraper       │
+        │ fetch_links()       │
+        │ fetch_contents()    │
+        └─────────┬───────────┘
+                  │ scraped HTML/text
+                  ▼
+        ┌──────────────────────────┐
+        │ GPT Link Selector Agent  │
+        │  (gpt-5-nano)            │
+        └───────┬──────────────────┘
+                │ selected links
+                ▼
+     ┌──────────────────────────────┐
+     │ Scraper fetches sub-pages    │
+     └────────┬─────────────────────┘
+              │ combined content
+              ▼
+     ┌──────────────────────────────┐
+     │ GPT Brochure Generating Agent│
+     │     (gpt-4.1-mini)           │
+     └────────┬─────────────────────┘
+              │ markdown brochure
+              ▼
+       ┌────────────────────┐
+       │ Render to user     │
+       │  Markdown output   │
+       └────────────────────┘
+
